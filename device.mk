@@ -155,6 +155,7 @@ PRODUCT_PACKAGES += \
     memtrack.msm8937 \
     liboverlay \
     libgenlock \
+    libdisplayconfig \
     libjni_livedisplay \
     libtinyxml
 
