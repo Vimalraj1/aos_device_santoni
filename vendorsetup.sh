@@ -20,6 +20,7 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-for var in eng user userdebug; do
-  add_lunch_combo lineage_santoni-$var
-done
+add_lunch_combo aosp_santoni-eng
+add_lunch_combo aosp_santoni-user
+add_lunch_combo aosp_santoni-userdebug
+
